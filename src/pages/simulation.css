@@ -1,0 +1,159 @@
+.progressbar1Simulation {
+    animation: 3s slidefromBottom;
+}
+
+.progressbar2Simulation {
+    animation: 4s slidefromBottom;
+}
+
+.backgroundIndexSimulation {
+    background-image: url("../images/bg/bg-superdog.jpg");
+    background-position: 80% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden !important;
+
+    height: 100vh;
+    background-color: #439fc6;
+}
+
+.backgroundIndexSimulation .textSimulation {
+    margin-left: 320px;
+    margin-top: 50px;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    padding-right: 12%;
+    font-family: 'Akkurat Pro', Helvetica, Arial, sans-serif !important;
+    /*height: 200px;*/
+}
+
+.backgroundIndexSimulation .textSimulation .line-prosperSimulation {
+    color: #004e74;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.backgroundIndexSimulation .textSimulation .table-stats {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.backgroundIndexSimulation .textSimulation .table-stats p {
+    color: #fff !important;
+    font-size: 18px;
+    text-align: start;
+    line-height: 30px;
+    margin-top: -25px;
+}
+
+#collapseOne {
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    height: 0;
+}
+
+
+.textSimulation {
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+    height: 100px;
+    background-color: transparent;
+    font-family: 'Montserrat' !important;
+}
+
+.testSimulation {
+    width: 900px;
+    height: 900px;
+}
+/************************Adapter design************/
+@media (max-width: 1199px) {
+    .backgroundIndexSimulation {
+        background-image: url("../images/bg/bg-superdog-tablet.jpg");
+        background-position: 90% 83%;
+    }
+
+    .backgroundIndexSimulation .textSimulation {
+        font-size: 45px ;
+        line-height: 45px ;
+        font-weight: 700 !important;
+    }
+
+    .backgroundIndexSimulation .textSimulation .table-stats {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .textSimulation {
+        background-color: transparent !important;
+        letter-spacing: .03em !important;
+        font-size: 30px;
+        color: white !important;
+        font-weight: 700 !important;
+        text-align: left !important;
+        font-family: 'Montserrat' !important;
+    }
+
+    .backgroundIndexSimulation {
+        background-image: url("../images/bg/bg-superdog-tablet.jpg");
+        background-position: 90% 83%;
+    }
+
+    .backgroundIndexSimulation .textSimulation {
+        margin-left: 100px;
+        font-size: 35px;
+    }
+
+    .backgroundIndexSimulation .textSimulation .table-stats {
+        margin-right: 50px;
+    }
+
+    .backgroundIndexSimulation .textSimulation .table-stats p {
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .backgroundIndexSimulation {
+        background-image: url("../images/bg/bg-superdog-mobile.jpg");
+        background-position: 95% 100%;
+    }
+
+    .backgroundIndexSimulation .textSimulation {
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+
+    .backgroundIndexSimulation .textSimulation .table-stats {
+        margin-right: 0;
+    }
+
+    .backgroundIndexSimulation .textSimulation {
+        font-size: 26px;
+        line-height: 28px;
+        letter-spacing: -.01em;
+    }
+
+    .backgroundIndexSimulation .textSimulation .Typewriter{
+        height: 190px;
+    }
+
+    .backgroundIndexSimulation .textSimulation .line-prosperSimulation {
+        margin-bottom: 10px;
+    }
+
+    .backgroundIndexSimulation .textSimulation #collapseOne .col-5{
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tl-edges .containerSimulation, .containerSimulation-lg, .containerSimulation-md, .containerSimulation-sm, .containerSimulation-xl {
+        max-width: 1425px;
+    }
+}

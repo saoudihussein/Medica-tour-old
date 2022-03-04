@@ -1,0 +1,17 @@
+<svg id="Groupe_136" data-name="Groupe 136" xmlns="http://www.w3.org/2000/svg" width="28.281" height="26" viewBox="0 0 28.281 26">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #2144e0;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Forme_2" data-name="Forme 2" className="cls-1" d="M509.825,2549.4l3.21,3.2,12.837-12.8" transform="translate(-500 -2538)"/>
+  <circle className="cls-2" cx="13.031" cy="13" r="12.031"/>
+</svg>
